@@ -2,16 +2,20 @@
 @font-face {
     font-family: Regular;
     src: url(../fonts/Spartan-Regular.ttf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: Medium;
     src: url(../fonts/Spartan-Medium.ttf);
+    font-display: swap;
 }
+
 
 @font-face {
     font-family: Bold;
     src: url(../fonts/Spartan-Bold.ttf);
+    font-display: swap;
 }
 
 /* General Rules */
