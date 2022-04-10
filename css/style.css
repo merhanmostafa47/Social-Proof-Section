@@ -79,7 +79,7 @@ main::before {
 
 main .container {
     position: relative;
-    padding: 65px 125px;
+    padding: 100px 140px;
 }
 
 @media (max-width: 992px) {
@@ -103,7 +103,7 @@ main .container .content {
 /* Start Heading */
 
 main .container .content .heading {
-    width: 40%;
+    width: 35%;
 }
 
 @media (max-width:992px) {
@@ -118,22 +118,22 @@ main .container .content .heading h1 {
     margin: 0;
     font-family: 'Bold';
     color: var(--main-color);
-    font-size: 3.125rem;
-    line-height: 1.1;
+    font-size: 2.5rem;
+    line-height: 1;
 }
 
 @media (max-width:992px) {
     main .container .content .heading h1 {
         width: 85%;
         margin: auto;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
 
 main .container .content .heading p {
     width: 92%;
     margin-top: 0.5rem;
-    line-height: 1.8;
+    line-height: 1.5;
     color: var(--Dark-Grayish-Magenta);
     font-family: 'Medium';
     font-size: .9375rem;
@@ -219,7 +219,7 @@ main .container .content .rate .box .text p {
 /* Start Cards */
 
 main .container .cards {
-    margin-top: 2rem;
+    justify-content: center;
 }
 
 @media (max-width: 950px) {
@@ -230,20 +230,21 @@ main .container .cards {
 }
 
 main .container .cards .card {
-    min-height: 200px;
-    padding: 45px;
+    max-height: 300px;
+    flex-basis: 32%;
+    padding: 30px;
     margin-right: 20px;
     border-radius: 8px;
     background-color: var(--main-color);
 }
 
 main .container .cards .card:nth-of-type(2) {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 main .container .cards .card:last-child {
     margin-right: 0;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 @media (max-width: 950px) {
@@ -259,33 +260,33 @@ main .container .cards .card:last-child {
 }
 
 main .container .cards .card .card__aside {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 main .container .cards .card .card__aside .card__image {
-    margin-right: 1.8rem;
+    margin-right: 1.2rem;
 }
 
 main .container .cards .card .card__aside .card__image img {
-    height: 3rem;
+    height: 2.2rem;
     border-radius: 50%;
 }
 
 main .container .cards .card__aside .card__header .card__title h2 {
-    font-size: 1.1rem;
+    font-size: .8rem;
     color: var(--white);
 }
 
 main .container .cards .card__aside .card__header .card__subtitle h3 {
     margin-top: .4rem;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: normal;
     color: var(--soft-pink);
 }
 
 main .container .cards .card__body q {
     display: block;
-    line-height: 1.8;
+    line-height: 1.6;
     font-size: 0.9375rem;
     color: var(--Light-Grayish-Magenta);
 }
