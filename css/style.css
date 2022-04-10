@@ -79,7 +79,7 @@ main::before {
 
 main .container {
     position: relative;
-    padding: 100px 140px;
+    padding: 100px 130px;
 }
 
 @media (max-width: 992px) {
@@ -104,6 +104,7 @@ main .container .content {
 
 main .container .content .heading {
     width: 35%;
+    justify-content: flex-start;
 }
 
 @media (max-width:992px) {
@@ -118,7 +119,7 @@ main .container .content .heading h1 {
     margin: 0;
     font-family: 'Bold';
     color: var(--main-color);
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     line-height: 1;
 }
 
@@ -132,7 +133,7 @@ main .container .content .heading h1 {
 
 main .container .content .heading p {
     width: 92%;
-    margin-top: 0.5rem;
+    margin-top: 0.7rem;
     line-height: 1.5;
     color: var(--Dark-Grayish-Magenta);
     font-family: 'Medium';
@@ -274,13 +275,14 @@ main .container .cards .card .card__aside .card__image img {
 
 main .container .cards .card__aside .card__header .card__title h2 {
     font-size: .8rem;
+    font-family: 'Medium';
     color: var(--white);
 }
 
 main .container .cards .card__aside .card__header .card__subtitle h3 {
     margin-top: .4rem;
     font-size: .8rem;
-    font-weight: normal;
+    font-family: 'Medium';
     color: var(--soft-pink);
 }
 
