@@ -79,12 +79,12 @@ main::before {
 
 main .container {
     position: relative;
-    padding: 100px 125px;
+    padding: 6.25rem 7.8125rem;
 }
 
 @media (max-width: 992px) {
     main .container {
-        padding: 50px 20px;
+        padding: 3.125rem 1.25rem;
     }
 }
 
@@ -171,11 +171,11 @@ main .container .content .rate .box {
 }
 
 main .container .content .rate .box:nth-child(2) {
-    margin-left: 60px;
+    margin-left: 3.75rem;
 }
 
 main .container .content .rate .box:nth-child(3) {
-    margin-left: 110px;
+    margin-left: 6.875rem;
 }
 
 @media (max-width:992px) {
