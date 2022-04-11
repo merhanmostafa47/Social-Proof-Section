@@ -79,7 +79,7 @@ main::before {
 
 main .container {
     position: relative;
-    padding: 100px 130px;
+    padding: 100px 125px;
 }
 
 @media (max-width: 992px) {
@@ -103,7 +103,7 @@ main .container .content {
 /* Start Heading */
 
 main .container .content .heading {
-    width: 35%;
+    width: 36%;
     justify-content: flex-start;
 }
 
@@ -119,7 +119,7 @@ main .container .content .heading h1 {
     margin: 0;
     font-family: 'Bold';
     color: var(--main-color);
-    font-size: 2.8rem;
+    font-size: 2.9rem;
     line-height: 1;
 }
 
@@ -132,8 +132,7 @@ main .container .content .heading h1 {
 }
 
 main .container .content .heading p {
-    width: 92%;
-    margin-top: 0.7rem;
+    margin-top: .7rem;
     line-height: 1.5;
     color: var(--Dark-Grayish-Magenta);
     font-family: 'Medium';
@@ -142,7 +141,6 @@ main .container .content .heading p {
 
 @media (max-width:992px) {
     main .container .content .heading p {
-        width: 100%;
         margin-top: 1.5rem;
     }
 }
@@ -152,19 +150,20 @@ main .container .content .heading p {
 /* Start Rate */
 
 main .container .content .rate {
-    width: 55%;
+    width: 56%;
 }
 
 @media (max-width: 992px) {
     main .container .content .rate {
         width: 100%;
         margin-top: 1.8rem;
-        margin-bottom: 1.8rem;
+        margin-bottom: 2.5rem;
     }
 }
 
 main .container .content .rate .box {
     width: 70%;
+    min-width: 28.2rem;
     background-color: var(--Light-Grayish-Magenta);
     border-radius: 5px;
     padding: 20px;
@@ -176,12 +175,13 @@ main .container .content .rate .box:nth-child(2) {
 }
 
 main .container .content .rate .box:nth-child(3) {
-    margin-left: 120px;
+    margin-left: 110px;
 }
 
 @media (max-width:992px) {
     main .container .content .rate .box {
         width: 100%;
+        min-width: auto;
         margin: 20px auto;
         flex-direction: column;
         text-align: center;
@@ -290,7 +290,7 @@ main .container .cards .card__aside .card__header .card__subtitle h3 {
 main .container .cards .card__body q {
     display: block;
     line-height: 1.6;
-    font-size: 0.9375rem;
+    font-size: .9375rem;
     color: var(--Light-Grayish-Magenta);
 }
 
